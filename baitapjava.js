@@ -1,34 +1,34 @@
 function chuyen() {
-    let p = document.getElementById("a").value;
-    let c1 = document.getElementById('b1');
-    let c2 = document.getElementById('b2');
-    let d1 = c1.options[c1.selectedIndex].value;
-    let d2 = c2.options[c2.selectedIndex].value;
-    if (d1 == "a2" && d2 == "a5") {
+    let p = document.getElementById("nhapSoTien").value;
+    let goiSelect1 = document.getElementById('select1');
+    let goiSelect2 = document.getElementById('select2');
+    let goiOptions1 = goiSelect1.options[goiSelect1.selectedIndex].value;
+    let goiOptions2 = goiSelect2.options[goiSelect2.selectedIndex].value;
+    if (goiOptions1 == "optionVietNam1" && goiOptions2 == "optionVietNam2") {
         result = p * 1
     }
-    if (d1 == "a2" && d2 == "a4") {
+    if (goiOptions1 == "optionVietNam1" && goiOptions2 == "optionirac2") {
         result = p / 19.6
     }
-    if (d1 == "a2" && d2 == "a6") {
+    if (goiOptions1 == "optionVietNam1" && goiOptions2 == "optionPaKitxTan2") {
         result = p / 155.3
     }
-    if (d1 == "a1" && d2 == "a4") {
+    if (goiOptions1 == "optionirac1" && goiOptions2 == "optionirac2") {
         result = p * 1
     }
-    if (d1 == "a1" && d2 == "a5") {
+    if (goiOptions1 == "optionirac1" && goiOptions2 == "optionVietNam2") {
         result = p * 19.6
     }
-    if (d1 == "a1" && d2 == "a6") {
+    if (goiOptions1 == "optionirac1" && goiOptions2 == "optionPaKitxTan2") {
         result = p * 7.91
     }
-    if (d1 == "a3" && d2 == "a4") {
+    if (goiOptions1 == "optionPaKitxTan1" && goiOptions2 == "optionirac2") {
         result = p / 7.91
     }
-    if (d1 == "a3" && d2 == "a5") {
+    if (goiOptions1 == "optionPaKitxTan1" && goiOptions2 == "optionVietNam2") {
         result = p * 155.3
     }
-    if (d1 == "a3" && d2 == "a6") {
+    if (goiOptions1 == "optionPaKitxTan1" && goiOptions2 == "optionPaKitxTan2") {
         result = p * 1
     }
     let l = document.getElementById("i");
